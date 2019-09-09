@@ -1,4 +1,4 @@
-const words =['tiger','lion','cow','bulls','rabbit','tortoise','horse','elephant','horn','fish','dog','cat','rat','buffalo','got','donkey','monkey','beer']
+const words =['parrot','cattle','kangaroo','rhinoceros','leopard','sheep','raccoon','shark','dolphin','gorilla','penguin','goose','hyena','porcupine','swans','tiger','lion','cow','bull','rabbit','tortoise','horse','elephant','horn','fish','dog','cat','rat','buffalo','goat','donkey','monkey','beer']
 
 //get new random word
 
