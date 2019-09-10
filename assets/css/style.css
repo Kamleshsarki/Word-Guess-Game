@@ -1,26 +1,30 @@
 .Hangman{
-    color: rgb(0, 255, 64);
-background-color: brown;
-
+    color:yellow;
+    font-family:arial;
+ 
+ background-size: cover;
+ 
+ background-image: url("../images/d41.gif");
+ background-repeat: no-repeat;
 }
 
 h1{
 text-align:center;
-font-size: 400%;
+font-size: 350%;
 }
 
 h2{
 
     text-align: center;
-    font-size: 200%
+    font-size: 250%
 }
 h3{
 text-align: center;
-font-size: 200%;
+font-size: 300%;
 
 }
 h4{
 
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
 }
