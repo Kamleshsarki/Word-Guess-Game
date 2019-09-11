@@ -56,8 +56,15 @@ const reset = function (){
      document.getElementById('word').textContent = wordStr
 // if no blanks were added
         if (winStatus){
-            alert (`You won! and the word was: ${word}`)
+           // alert (`You won! and the word was: ${word}`)
+           swal({
+            title: "Congratulation!",
+            text: "You won!",
+            icon: "success",
+            button: "Ok!",
+          });
             wins++
+            document.getElementById("sound").play()
   // reset game      
             reset()
             
@@ -83,7 +90,8 @@ if (word.includes(event.key)){
     
     // if user is out of guesses
     if(guesses <= 0){
-        alert(`You lost! and the word was: ${word}`)
+        //alert(`You lost! and the word was: ${word}`)
+        swal("You lost!");
         losses++
     //reset the game    
         reset()
