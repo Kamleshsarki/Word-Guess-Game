@@ -67,8 +67,8 @@ const reset = function (){
             document.getElementById("sound").play()
   // reset game      
             reset()
-            
-         }
+           
+        }
            
      }
 //confirm letter is or is not in  word
@@ -93,6 +93,7 @@ if (word.includes(event.key)){
         //alert(`You lost! and the word was: ${word}`)
         swal("You lost!");
         losses++
+        document.getElementById("los").play()
     //reset the game    
         reset()
         
